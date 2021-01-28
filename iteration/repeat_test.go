@@ -22,6 +22,6 @@ func BenchmarkRepeat(b *testing.B) {
 
 func ExampleRepeat() {
 	str := Repeat("a", 4)
-	fmt.Println(str)
-	// output: aaaa
+	fmt.Printf("%q", str)
+	// output: "aaaa"
 }
